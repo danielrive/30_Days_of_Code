@@ -1,5 +1,9 @@
 package main
 
+// A script that create a map with the values introduced in stdin
+// in the format ---->  name phone_number
+// and then print the data of the name introduced in stdin
+
 import (
 	"bufio"
 	"fmt"
@@ -13,14 +17,6 @@ func main() {
 	info := make(map[string]string)
 	fmt.Scan(&testcases)
 
-	// reader := bufio.NewReader(os.Stdin)
-
-	// for i := 0; i < testcases; i++ {
-	// 	text, _ := reader.ReadString('\n')
-	// 	arrInfo = strings.Split(text, " ")
-	// 	info[arrInfo[0]] = arrInfo[1]
-	// 	arrInfo = nil
-	// }
 	scanner := bufio.NewScanner(os.Stdin)
 
 	for scanner.Scan() {

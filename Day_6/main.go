@@ -1,5 +1,7 @@
 package main
 
+// A simple script to separate even and odd part into array of strings
+// according with the index in the array
 import (
 	"fmt"
 )

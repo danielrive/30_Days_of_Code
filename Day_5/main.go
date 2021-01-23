@@ -1,5 +1,6 @@
 package main
 
+// a simple script to multiplicate int
 import (
 	"fmt"
 )

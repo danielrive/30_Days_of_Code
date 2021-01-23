@@ -1,5 +1,7 @@
 package main
 
+// A simple script to sum int, float and concatenate string
+
 import (
 	"bufio"
 	"fmt"

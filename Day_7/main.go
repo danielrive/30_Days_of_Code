@@ -1,5 +1,7 @@
 package main
 
+// A simple script that change the order of the array
+
 import (
 	"fmt"
 )

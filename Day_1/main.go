@@ -1,5 +1,6 @@
 package main
 
+// A simple script to print  Hello world and the input(stdin)
 import (
 	"bufio"
 	"fmt"

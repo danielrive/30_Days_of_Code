@@ -1,5 +1,6 @@
 package main
 
+// A script that use structs like classes for POO
 import "fmt"
 
 type person struct {
